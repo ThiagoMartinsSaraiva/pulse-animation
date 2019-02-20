@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #262626;
+  width: 100%;
+  height: 45px;
+}
+
+article {
+  background-color: #eee;
+  margin: 0 auto;
+  width: 80%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rounded {
+  height: 100px;
+  width: 100px;
+  background-color: #f26;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #fff;
+  text-shadow: .5px .5px 1px #000a;
+}
