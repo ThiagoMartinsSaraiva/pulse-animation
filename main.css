@@ -39,15 +39,15 @@ article {
 
 @keyframes pulse {
   0%{
-    box-shadow: 0 0 0 0 rgba(255, 40, 100, .7);
+    box-shadow: 0 0 0 0 rgba(255, 40, 100, .7), 0 0 0 0 rgba(255, 40, 100, 0);
   }
   40%{
-    box-shadow: 0 0 0 20px rgba(255, 40, 100, 0);
+    box-shadow: 0 0 0 20px rgba(255, 40, 100, 0), 0 0 0 0 rgba(255, 40, 100, 0);
   }
   80%{
-    box-shadow: 0 0 0 20px rgba(255, 40, 100, 0);
+    box-shadow: 0 0 0 20px rgba(255, 40, 100, 0), 0 0 0 20px rgba(255, 40, 100, 0);
   }
   100%{
-    box-shadow: 0 0 0 0 rgba(255, 40, 100, 0);
+    box-shadow: 0 0 0 0 rgba(255, 40, 100, 0), 0 0 0 20px rgba(255, 40, 100, 0);
   }
 }
