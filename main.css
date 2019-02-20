@@ -29,3 +29,25 @@ article {
   color: #fff;
   text-shadow: .5px .5px 1px #000a;
 }
+
+.pulse {
+  animation-name: pulse;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-duration: 1s;
+}
+
+@keyframes pulse {
+  0%{
+    box-shadow: 0 0 0 0 rgba(255, 40, 100, .7);
+  }
+  40%{
+    box-shadow: 0 0 0 20px rgba(255, 40, 100, 0);
+  }
+  80%{
+    box-shadow: 0 0 0 20px rgba(255, 40, 100, 0);
+  }
+  100%{
+    box-shadow: 0 0 0 0 rgba(255, 40, 100, 0);
+  }
+}
